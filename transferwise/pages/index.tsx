@@ -1,7 +1,13 @@
+import Layout from '../components/containers/Layout';
+
+
+
 function Home() {
 
 return (
-     <div> Hello world</div>
+     <Layout>
+          <h1>Hello world</h1>
+     </Layout>
 
 )
 }
