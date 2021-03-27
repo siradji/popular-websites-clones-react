@@ -2,7 +2,7 @@ import { NormalButtonProps, ButtonFillProps} from "../../../interfaces";
 
 
 
-const Button: React.FC<NormalButtonProps> = ({onclick, children}: NormalButtonProps) => {
+export const Button: React.FC<NormalButtonProps> = ({onclick, children}: NormalButtonProps) => {
 
     const handleClick = () => onclick();
 
@@ -33,7 +33,5 @@ export const ButtonFill: React.FC<ButtonFillProps> = ({children, onclick, bgColo
     )
 
 }
-
-export default Button;
 
 

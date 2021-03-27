@@ -1,13 +1,14 @@
-import Layout from '../components/containers/Layout';
+
+import Hero from '../components/sections/hero';
 
 
 
 function Home() {
 
 return (
-     <Layout>
-          <h1>Hello world</h1>
-     </Layout>
+     <>
+          <Hero />
+     </>
 
 )
 }

@@ -3,3 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main.container-custom {
+  max-width: 1164px;
+}
+
+/* responsiveness */
